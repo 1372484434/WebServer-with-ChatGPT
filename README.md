@@ -33,10 +33,6 @@
 
 ![](./gif/chatgpt.GIF)
 
-## 摄像头显示实时画面功能
-
-![](./gif/capture.MP4)
-
 
 # 环境要求
 
