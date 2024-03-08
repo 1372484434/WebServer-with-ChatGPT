@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+METHOD_GET	webbench.c	/^#define METHOD_GET /;"	d	file:
+METHOD_HEAD	webbench.c	/^#define METHOD_HEAD /;"	d	file:
+METHOD_OPTIONS	webbench.c	/^#define METHOD_OPTIONS /;"	d	file:
+METHOD_TRACE	webbench.c	/^#define METHOD_TRACE /;"	d	file:
+PROGRAM_VERSION	webbench.c	/^#define PROGRAM_VERSION /;"	d	file:
+REQUEST_SIZE	webbench.c	/^#define REQUEST_SIZE /;"	d	file:
+Socket	socket.c	/^int Socket(const char *host, int clientPort)$/;"	f	typeref:typename:int
+alarm_handler	webbench.c	/^static void alarm_handler(int signal)$/;"	f	typeref:typename:void	file:
+bench	webbench.c	/^static int bench(void)$/;"	f	typeref:typename:int	file:
+benchcore	webbench.c	/^void benchcore(const char *host,const int port,const char *req)$/;"	f	typeref:typename:void
+benchtime	webbench.c	/^int benchtime=30;$/;"	v	typeref:typename:int
+build_request	webbench.c	/^void build_request(const char *url)$/;"	f	typeref:typename:void
+bytes	webbench.c	/^int bytes=0;$/;"	v	typeref:typename:int
+clients	webbench.c	/^int clients=1;$/;"	v	typeref:typename:int
+failed	webbench.c	/^int failed=0;$/;"	v	typeref:typename:int
+force	webbench.c	/^int force=0;$/;"	v	typeref:typename:int
+force_reload	webbench.c	/^int force_reload=0;$/;"	v	typeref:typename:int
+host	webbench.c	/^char host[MAXHOSTNAMELEN];$/;"	v	typeref:typename:char[]
+http10	webbench.c	/^int http10=1; \/* 0 - http\/0.9, 1 - http\/1.0, 2 - http\/1.1 *\/$/;"	v	typeref:typename:int
+long_options	webbench.c	/^static const struct option long_options[]=$/;"	v	typeref:typename:const struct option[]	file:
+main	webbench.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+method	webbench.c	/^int method=METHOD_GET;$/;"	v	typeref:typename:int
+mypipe	webbench.c	/^int mypipe[2];$/;"	v	typeref:typename:int[2]
+proxyhost	webbench.c	/^char *proxyhost=NULL;$/;"	v	typeref:typename:char *
+proxyport	webbench.c	/^int proxyport=80;$/;"	v	typeref:typename:int
+request	webbench.c	/^char request[REQUEST_SIZE];$/;"	v	typeref:typename:char[]
+speed	webbench.c	/^int speed=0;$/;"	v	typeref:typename:int
+timerexpired	webbench.c	/^volatile int timerexpired=0;$/;"	v	typeref:typename:volatile int
+usage	webbench.c	/^static void usage(void)$/;"	f	typeref:typename:void	file:
