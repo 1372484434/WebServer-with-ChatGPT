@@ -47,7 +47,7 @@
 - build
 
   ```
-  sh ./build.sh
+  make
   ```
 
 - 启动server
